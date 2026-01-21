@@ -66,8 +66,8 @@ ATM_WITH_GUI
 |------|------|
 | customer_no | INT (Primary Key) |
 | pin | INT |
-| current_balance | DOUBLE | DEFAULT 0 |
-| saving_balance | DOUBLE | DEFAULT 0 |
+| current_balance | DOUBLE (DEFAULT 0) |
+| saving_balance | DOUBLE (DEFAULT 0) |
 
 ---
 
